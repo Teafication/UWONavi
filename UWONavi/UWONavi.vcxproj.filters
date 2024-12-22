@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b14ab327-228c-4825-b165-abb6cc117c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Application">
+      <UniqueIdentifier>{17d24797-f10b-4315-862e-1d0e1739496f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameProcess">
+      <UniqueIdentifier>{810563df-1604-4ced-902d-9bd6b305c74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ImageAnalysis">
+      <UniqueIdentifier>{28825152-a54b-4310-a26d-1311a1e7e120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\OwnShip">
+      <UniqueIdentifier>{41df506f-09c5-4aca-82ee-435f1cb853b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Map">
+      <UniqueIdentifier>{251fb7e2-7c32-42ce-bd2f-eabe6409bb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Rendering">
+      <UniqueIdentifier>{42636208-5d9a-42f1-87ee-2dd90224fe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Route">
+      <UniqueIdentifier>{a24ee276-3d72-4b3d-9090-cb6f21a50a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utilities">
+      <UniqueIdentifier>{74884f52-7488-4c60-850e-6b05edacc52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src\Image">
+      <UniqueIdentifier>{e9afeb05-3270-4142-a4fd-2ab80da5c7b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Image.h">
+      <Filter>src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>src\OwnShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>src\OwnShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Velocity.h">
+      <Filter>src\OwnShip</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMap.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>src\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedMeter.h">
+      <Filter>src\OwnShip</Filter>
+    </ClInclude>
+    <ClInclude Include="SurveyCoordExtractor.h">
+      <Filter>src\ImageAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="UWONavi.h">
+      <Filter>src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>src\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>src\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatus.h">
+      <Filter>src\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Noncopyable.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipRoute.h">
+      <Filter>src\Route</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipRouteList.h">
+      <Filter>src\Route</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalizedPoint.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipRouteManageView.h">
+      <Filter>src\Route</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Image.cpp">
+      <Filter>src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>src\OwnShip</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMap.cpp">
+      <Filter>src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SurveyCoordExtractor.cpp">
+      <Filter>src\ImageAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>src\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="UWONavi.cpp">
+      <Filter>src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipRoute.cpp">
+      <Filter>src\Route</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipRouteList.cpp">
+      <Filter>src\Route</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipRouteManageView.cpp">
+      <Filter>src\Route</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UWONavi.rc">
+      <Filter>src\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>src\Resources</Filter>
+    </Image>
+    <Image Include="navi.ico">
+      <Filter>src\Resources</Filter>
+    </Image>
+    <Image Include="star.ico">
+      <Filter>src\Resources</Filter>
+    </Image>
+    <Image Include="blank.ico">
+      <Filter>src\Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

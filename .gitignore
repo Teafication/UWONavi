@@ -1,0 +1,11 @@
+*.exe
+*.db
+*.ini
+*.opendb
+UWONavi/.vs/
+UWONavi/archive/
+UWONavi/x64/
+archive/
+ipch/
+.vs/
+.x64/
