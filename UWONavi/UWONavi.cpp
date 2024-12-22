@@ -100,9 +100,9 @@ HDC g_hdcMain;        // Device context for the main window
 
 // Basic app details that show up in window titles and the About dialog
 static LPCWSTR const k_appName = L"UWONavi";
-static LPCWSTR const k_translated = L"Updated by Anima";
+static LPCWSTR const k_translated = L"Maintain by Anima";
 static LPCWSTR const k_architecture = L"(64bits)";
-static LPCWSTR const k_copyright = L"copyright(c) 2024 Anima";
+static LPCWSTR const k_copyright = L"(c) 2024 Anima, London";
 
 static LPCWSTR const k_windowClassName = L"Navi";           // Name of the window class
 static const LPCWSTR k_configFileName = L"Navi.ini";       // Default config file
